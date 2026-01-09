@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Differential = () => {
     return (
-        <section className="py-10 bg-brand-dark text-white relative overflow-hidden">
+        <section className="py-24 bg-brand-dark text-white relative overflow-hidden">
             {/* Decorative gradient */}
             <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-green/10 to-transparent pointer-events-none"></div>
 
