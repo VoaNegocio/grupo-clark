@@ -18,7 +18,7 @@ const Header = () => {
                         transition={{ duration: 0.3 }}
                     >
                         <img
-                            src="/logo/logo.png"
+                            src="/logo/logo.webp"
                             alt="Grupo Clarck Logo"
                             className="w-full h-auto drop-shadow-lg"
                         />
