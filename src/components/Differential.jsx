@@ -5,7 +5,8 @@ const Differential = () => {
     return (
         <section className="py-24 bg-brand-dark text-white relative overflow-hidden">
             {/* Decorative gradient */}
-            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-green/10 to-transparent pointer-events-none"></div>
+            {/* Decorative gradient */}
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#272823] to-transparent pointer-events-none opacity-50"></div>
 
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -28,15 +29,15 @@ const Differential = () => {
 
                         <ul className="space-y-4">
                             <li className="flex items-center gap-3">
-                                <div className="w-2 h-2 rounded-full bg-brand-green"></div>
+                                <div className="w-2 h-2 rounded-full bg-brand-gold"></div>
                                 <span>Proteção de pisos e móveis existentes</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <div className="w-2 h-2 rounded-full bg-brand-green"></div>
+                                <div className="w-2 h-2 rounded-full bg-brand-gold"></div>
                                 <span>Barreira contra poeira</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <div className="w-2 h-2 rounded-full bg-brand-green"></div>
+                                <div className="w-2 h-2 rounded-full bg-brand-gold"></div>
                                 <span>Limpeza pós-obra garantida</span>
                             </li>
                         </ul>

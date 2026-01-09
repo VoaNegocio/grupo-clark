@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import Identification from './components/Identification';
 import Differential from './components/Differential';
@@ -10,6 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-brand-light font-sans selection:bg-brand-green selection:text-white">
+      <Header />
       <Hero />
       <Identification />
       <Differential />

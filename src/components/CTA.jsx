@@ -4,7 +4,11 @@ import { motion } from 'framer-motion';
 
 const CTA = () => {
     return (
-        <section className="py-24 bg-brand-gray/30 relative">
+        <section className="py-24 bg-white relative overflow-hidden">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 bg-grid-slate-pattern [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#272823]/5 to-transparent pointer-events-none"></div>
             <div className="container mx-auto px-4 text-center">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-gray-900">

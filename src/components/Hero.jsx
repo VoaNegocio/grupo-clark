@@ -15,7 +15,7 @@ const Hero = () => {
                         className="w-full h-full object-cover"
                     />
                 </picture>
-                <div className="absolute inset-0 bg-gradient-to-r from-brand-light/95 via-brand-light/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#272823]/95 via-[#272823]/80 to-transparent"></div>
             </div>
 
             <div className="container mx-auto px-4 z-10 relative">
@@ -25,16 +25,16 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-gray-900 leading-tight mb-6">
-                            Móveis planejados sem <span className="text-brand-green">transformar sua casa em obra</span>.
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                            Móveis planejados sem <span className="text-brand-gold">transformar sua casa em obra</span>.
                         </h1>
 
-                        <p className="text-lg md:text-xl text-gray-900 font-medium mb-6 leading-relaxed">
+                        <p className="text-lg md:text-xl text-gray-100 font-medium mb-6 leading-relaxed">
                             Isolamento real na montagem + projeto 3D + entrega em até 40 dias.
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-8">
-                            <span className="text-gray-600 font-medium self-center mr-2">Atendemos:</span>
+                            <span className="text-white font-medium self-center mr-2">Atendemos:</span>
                             {[
                                 "Niterói",
                                 "Grande Rio",
@@ -42,7 +42,7 @@ const Hero = () => {
                                 "Região Serrana"
                             ].map((city, index) => (
                                 <div key={index} className="inline-flex items-center gap-1.5 bg-white/60 backdrop-blur-md border border-white/40 shadow-sm px-4 py-2 rounded-full text-brand-dark text-sm font-semibold transition-all hover:bg-white hover:shadow-md hover:-translate-y-0.5 cursor-default">
-                                    <MapPin className="w-4 h-4 text-brand-green" />
+                                    <MapPin className="w-4 h-4 text-brand-gold" />
                                     {city}
                                 </div>
                             ))}
@@ -79,7 +79,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: [0, 10, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity, delay: 1 }}
             >
-                <div className="flex flex-col items-center gap-2 text-brand-dark/60">
+                <div className="flex flex-col items-center gap-2 text-white">
                     <span className="text-xs font-medium uppercase tracking-widest">Explore</span>
                     <ChevronDown className="w-6 h-6" />
                 </div>

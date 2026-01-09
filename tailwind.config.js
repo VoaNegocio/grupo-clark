@@ -9,6 +9,7 @@ export default {
       colors: {
         brand: {
           green: '#25D366', // WhatsApp Green
+          gold: '#C59D5F', // Logo Bronze/Gold
           dark: '#0B1221', // Dark support color
           light: '#F8F9FA', // Very light gray for background
           gray: '#E9ECEF', // Icon/border grays

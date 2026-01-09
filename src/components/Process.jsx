@@ -4,17 +4,17 @@ import { MessageSquareText, MonitorCheck, ShieldCheck } from 'lucide-react';
 const Process = () => {
     const steps = [
         {
-            icon: <MessageSquareText className="w-12 h-12 text-brand-green" />,
+            icon: <MessageSquareText className="w-12 h-12 text-brand-gold" />,
             title: "1. Entendimento e Orçamento",
             description: "Você fala com nosso time no WhatsApp e entende opções de projeto e pagamento."
         },
         {
-            icon: <MonitorCheck className="w-12 h-12 text-brand-green" />,
+            icon: <MonitorCheck className="w-12 h-12 text-brand-gold" />,
             title: "2. Projeto em 3D",
             description: "Antes de produzir, você visualiza tudo e decide com segurança."
         },
         {
-            icon: <ShieldCheck className="w-12 h-12 text-brand-green" />,
+            icon: <ShieldCheck className="w-12 h-12 text-brand-gold" />,
             title: "3. Montagem com Isolamento",
             description: "Protegemos o ambiente e os móveis existentes para manter sua casa limpa."
         }
@@ -38,6 +38,7 @@ const Process = () => {
             {/* Background Pattern */}
             <div className="absolute inset-0 bg-grid-slate-pattern [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#272823]/5 to-transparent pointer-events-none"></div>
 
             <div className="container mx-auto px-4 relative z-10">
                 <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-16 text-gray-900">
@@ -98,7 +99,7 @@ const Process = () => {
                                     // Let's just use the index * offset logic roughly or keep it as indicator only.
                                 }
                             }}
-                            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${activeStep === index ? 'bg-brand-green w-6' : 'bg-gray-300'
+                            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${activeStep === index ? 'bg-brand-gold w-6' : 'bg-gray-300'
                                 }`}
                             aria-label={`Go to step ${index + 1}`}
                         />

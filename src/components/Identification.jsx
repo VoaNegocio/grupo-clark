@@ -8,6 +8,7 @@ const Identification = () => {
             {/* Background Pattern */}
             <div className="absolute inset-0 bg-grid-slate-pattern [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+            <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-[#272823]/5 to-transparent pointer-events-none"></div>
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-4xl mx-auto text-center">
@@ -17,7 +18,7 @@ const Identification = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <div className="flex justify-center gap-8 mb-12 text-brand-green/80 perspective-1000">
+                        <div className="flex justify-center gap-8 mb-12 text-brand-gold perspective-1000">
                             {[
                                 { Icon: Home, delay: 0 },
                                 { Icon: Sparkles, delay: 0.2 },
@@ -64,7 +65,7 @@ const Identification = () => {
                         </p>
 
                         <motion.div
-                            className="inline-block relative overflow-hidden bg-brand-light px-8 py-4 rounded-2xl border border-gray-100 border-b-4 border-b-brand-green/20 shadow-[0_10px_20px_rgba(0,0,0,0.05)]"
+                            className="inline-block relative overflow-hidden bg-brand-light px-8 py-4 rounded-2xl border border-gray-100 border-b-4 border-b-brand-gold/20 shadow-[0_10px_20px_rgba(0,0,0,0.05)]"
                             animate={{ y: [0, -5, 0] }}
                             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                             whileHover={{ scale: 1.05, rotate: 1 }}
@@ -72,7 +73,7 @@ const Identification = () => {
                             {/* Shimmer Effect */}
                             <div className="absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/40 to-transparent z-10"></div>
 
-                            <p className="text-2xl font-bold text-brand-green relative z-20">
+                            <p className="text-2xl font-bold text-brand-gold relative z-20">
                                 Aqui, sua casa não vira obra.
                             </p>
                         </motion.div>
