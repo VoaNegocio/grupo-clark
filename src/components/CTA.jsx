@@ -19,7 +19,7 @@ const CTA = () => {
                     </p>
 
                     <motion.a
-                        href="https://wa.me/5521999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20meus%20m%C3%B3veis%21"
+                        href="https://wa.me/5521976447015?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20meus%20m%C3%B3veis%21"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex relative items-center gap-3 bg-gradient-to-r from-brand-green to-green-600 text-white font-bold py-5 px-10 rounded-full text-xl shadow-[0_0_30px_rgba(37,211,102,0.4)] overflow-hidden group"
@@ -35,7 +35,7 @@ const CTA = () => {
                         <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent z-10 w-full" />
 
                         <MessageCircle className="w-8 h-8 relative z-20" />
-                        <span className="relative z-20">Falar com o time do Grupo Clarck no WhatsApp</span>
+                        <span className="relative z-20">Falar com o time do Grupo Clarck</span>
                     </motion.a>
                 </div>
             </div>

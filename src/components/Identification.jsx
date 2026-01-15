@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Sparkles, Wrench } from 'lucide-react';
+import { Home, Sparkles, Wrench, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Identification = () => {
@@ -65,7 +65,7 @@ const Identification = () => {
                         </p>
 
                         <motion.div
-                            className="inline-block relative overflow-hidden bg-brand-light px-8 py-4 rounded-2xl border border-gray-100 border-b-4 border-b-brand-gold/20 shadow-[0_10px_20px_rgba(0,0,0,0.05)]"
+                            className="inline-block relative overflow-hidden bg-brand-light px-8 py-4 rounded-2xl border border-gray-100 border-b-4 border-b-brand-gold/20 shadow-[0_10px_20px_rgba(0,0,0,0.05)] mb-10"
                             animate={{ y: [0, -5, 0] }}
                             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                             whileHover={{ scale: 1.05, rotate: 1 }}
@@ -77,6 +77,27 @@ const Identification = () => {
                                 Aqui, sua casa não vira obra.
                             </p>
                         </motion.div>
+
+                        <div className="flex justify-center">
+                            <motion.a
+                                href="https://wa.me/5521976447015?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20meus%20m%C3%B3veis%21"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex relative items-center gap-3 bg-gradient-to-r from-brand-green to-green-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-[0_0_20px_rgba(37,211,102,0.4)] overflow-hidden group"
+                                whileHover={{ scale: 1.05, shadow: "0 0 30px rgba(37,211,102,0.6)" }}
+                                whileTap={{ scale: 0.95 }}
+                                animate={{ scale: [1, 1.02, 1] }}
+                                transition={{
+                                    scale: { duration: 2, repeat: Infinity, ease: "easeInOut" },
+                                    default: { duration: 0.3 }
+                                }}
+                            >
+                                {/* Shimmer Effect */}
+                                <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent z-10 w-full" />
+                                <MessageCircle className="w-6 h-6 relative z-20" />
+                                <span className="relative z-20">Falar com o time do Grupo Clarck</span>
+                            </motion.a>
+                        </div>
                     </motion.div>
                 </div>
             </div>

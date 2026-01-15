@@ -7,6 +7,7 @@ import Process from './components/Process';
 import SecondaryDifferentials from './components/SecondaryDifferentials';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <SecondaryDifferentials />
       <CTA />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
