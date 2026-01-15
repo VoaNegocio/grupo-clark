@@ -16,6 +16,7 @@ const Differential = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
+                        className="order-2 md:order-none"
                     >
                         <span className="text-brand-green font-bold tracking-wider uppercase text-sm mb-2 block">
                             Nosso Principal Diferencial
@@ -70,7 +71,7 @@ const Differential = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="relative"
+                        className="relative order-1 md:order-none"
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
                             <img
