@@ -24,6 +24,23 @@ const Differential = () => {
                         <h2 className="text-4xl text-brand-light md:text-5xl font-heading font-bold mb-6">
                             Isolamento real do ambiente durante a montagem.
                         </h2>
+
+                        {/* Mobile Image */}
+                        <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 mb-8 md:hidden">
+                            <img
+                                src="/images/isolation2.webp"
+                                alt="Ambiente protegido para instalação"
+                                className="w-full h-auto transform hover:scale-105 transition-transform duration-700"
+                            />
+
+                            {/* Floating Badge */}
+                            <div className="absolute bottom-6 left-6 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-lg">
+                                <p className="text-sm font-semibold text-white flex items-center gap-2">
+                                    <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
+                                    Processo Padrão Grupo Clarck
+                                </p>
+                            </div>
+                        </div>
                         <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                             Não é promessa. É preparo, proteção e cuidado antes de instalar qualquer móvel.
                             Nós cobrimos tudo para garantir que sua casa continue impecável.
@@ -71,7 +88,7 @@ const Differential = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="relative order-1 md:order-none"
+                        className="relative hidden md:block"
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
                             <img
