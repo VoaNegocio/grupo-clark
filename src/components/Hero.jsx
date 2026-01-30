@@ -49,7 +49,7 @@ const Hero = () => {
                         </div>
 
                         <motion.a
-                            href="https://wa.me/5521976447015?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20sem%20compromisso%21"
+                            href="https://wa.me/5521976447015?text=Ol%C3%A1%21%20Vim%20pelo%20Google%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20m%C3%B3veis%20planejados."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-3 bg-brand-green text-white font-bold py-5 px-10 rounded-full text-xl shadow-xl relative overflow-hidden group"
